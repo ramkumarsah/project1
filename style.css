@@ -1,0 +1,153 @@
+*{
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+html, body{
+    widows: 100%;
+    height: 100%;
+
+}
+nav{
+    width: 100%;
+    height: 80px;
+    /* background-color: rgb(38, 212, 235); */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5%;
+
+
+}
+.left{
+    display: flex;
+
+}
+.left h3{
+    font-size: 19px;
+    font-weight: 600;
+    border: 1px solid black;
+    border-radius: 50px;
+    padding: 10px 20px ;
+
+}
+#logo{
+    
+    border: 1px solid black;
+    border-radius: 50px;
+    padding: 7px 15px ;
+
+}
+.middle h3{
+    font-size: 21px;
+    font-weight: 500;
+    text-transform: uppercase;
+
+
+
+}
+.right{
+    display: flex;
+    gap: 10px;
+    font-size: 16px;
+
+}
+.right button{
+    padding: 6px 10px ;
+    border: 1px solid black;
+    border-radius: 50px;
+   background: transparent;
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.right button:nth-child(2){
+    background-color: rgb(252, 131, 50);
+    outline: none;
+    border: none;
+
+}
+.main>h1{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 130px;
+    width: 100%;
+    text-align:center;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+
+}
+.main>img{
+    width: 250px;
+    height: 340px;
+    border-radius: 20px;
+    object-fit: cover;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+
+}
+#img1{
+    position: absolute;
+
+    z-index: 9999;
+    transform: translate(-50%,-50%) rotate(-10deg);
+}
+#img2{
+    position: absolute;
+
+    z-index: 999;
+    transform: translate(-50%,-50%) rotate(-30deg);
+}
+#img3{
+    position: absolute;
+
+    z-index: 999;
+    transform: translate(-50%,-50%) rotate(-20deg);
+}
+#img4{
+    position: absolute;
+
+    z-index: 99999;
+    transform: translate(-50%,-50%) rotate(0deg);
+}
+.leftcorner{
+    position: absolute;
+    left: 5%;
+    bottom: 5%;
+
+}
+.leftcorner h3{
+    font-weight: 500;
+    font-size: 16px;
+
+}
+.rightcorner{
+    position: absolute;
+    right: 5%;
+    bottom: 5%;
+
+}
+.rightcorner h3{
+    font-weight: 500;
+    font-size: 15px;
+
+}
+.icon{
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.icon img{
+    cursor: pointer;
+    width: 20px;
+}
+
+
